@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7279E07B239E17C100E7DDAF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7279E07A239E17C100E7DDAF /* main.cpp */; };
+		725818C9239FA4D600428DA3 /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 725818C7239FA4D600428DA3 /* Graph.cpp */; };
+		7279E07B239E17C100E7DDAF /* CECS328Lab8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7279E07A239E17C100E7DDAF /* CECS328Lab8.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		725818C7239FA4D600428DA3 /* Graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Graph.cpp; sourceTree = "<group>"; };
+		725818C8239FA4D600428DA3 /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
 		7279E077239E17C100E7DDAF /* Lab8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lab8; sourceTree = BUILT_PRODUCTS_DIR; };
-		7279E07A239E17C100E7DDAF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7279E07A239E17C100E7DDAF /* CECS328Lab8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CECS328Lab8.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		7279E079239E17C100E7DDAF /* Lab8 */ = {
 			isa = PBXGroup;
 			children = (
-				7279E07A239E17C100E7DDAF /* main.cpp */,
+				7279E07A239E17C100E7DDAF /* CECS328Lab8.cpp */,
+				725818C8239FA4D600428DA3 /* Graph.hpp */,
+				725818C7239FA4D600428DA3 /* Graph.cpp */,
 			);
 			path = Lab8;
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7279E07B239E17C100E7DDAF /* main.cpp in Sources */,
+				725818C9239FA4D600428DA3 /* Graph.cpp in Sources */,
+				7279E07B239E17C100E7DDAF /* CECS328Lab8.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
